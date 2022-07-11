@@ -26,9 +26,7 @@
                 <th> Name </th>
                 <th> Visit Time </th>
                 <th> Status </th>
-                <th> Customer </th>
                 <th> Phone </th>
-                <th> Email </th>
             </tr>
             </thead>
             <tbody>
@@ -42,17 +40,13 @@
                      $name = $row['name'];
                      $visit = $row['visit'];
                      $status = $row['status'];
-                     $customer = $row['customer'];
                      $phone = $row['phone'];
-                     $email = $row['email'];
                      echo '<tr>
                      <td >'.$date.'</td>
                      <td>'.$name.'</td>
                      <td>'.$visit.'</td>
                      <td>'.$status.'</td>
-                     <td>'.$customer.'</td>
                      <td>'.$phone.'</td>
-                     <td>'.$email.'</td>
                      </tr>';
                     } 
              }
